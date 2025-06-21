@@ -26,10 +26,10 @@ export async function POST({ request }) {
         <p>Here's some more text</p>
         `,
         attachments: [{
-            constent: base64Pdf,
+            content: base64Pdf,
             filename: "Digital Ebook",
             type: "application/pdf",
-            disposition: "attachement",
+            disposition: "attachment",
         }]
     }
 
